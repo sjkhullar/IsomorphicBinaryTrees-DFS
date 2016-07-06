@@ -1,7 +1,7 @@
 package org.learn.Client;
 
-import org.learn.PrepareTree.Node;
 import org.learn.Question.IsomorphicBinaryTree;
+import org.learn.Question.Node;
 
 public class App 
 {
@@ -31,9 +31,9 @@ public class App
 
 		boolean isSame = IsomorphicBinaryTree.isIsomorphicBinaryTree(tree1, tree2);
 		if(isSame) {
-			System.out.println("Trees are Isomorphic");
+			System.out.println("Binary Trees are Isomorphic");
 		} else {
-			System.out.println("Trees are not Isomorphic");
+			System.out.println("Binary Trees are not Isomorphic");
 		}
     }
 }
